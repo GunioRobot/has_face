@@ -1,34 +1,34 @@
---- 
-- !ruby/struct:VCR::HTTPInteraction 
-  request: !ruby/struct:VCR::Request 
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
     method: :post
     uri: http://face.com:80/invalid/lookup/url
-    body: 
-    headers: 
-      accept: 
+    body:
+    headers:
+      accept:
       - "*/*; q=0.5, application/xml"
-      content-type: 
+      content-type:
       - multipart/form-data; boundary=104496
-      accept-encoding: 
+      accept-encoding:
       - gzip, deflate
-      content-length: 
+      content-length:
       - "69176"
-  response: !ruby/struct:VCR::Response 
-    status: !ruby/struct:VCR::ResponseStatus 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
       code: 404
       message: Not Found
-    headers: 
-      content-type: 
+    headers:
+      content-type:
       - text/html; charset=iso-8859-1
-      server: 
+      server:
       - Apache/2.2.16 (Debian) mod_ssl/2.2.16 OpenSSL/0.9.8o
-      date: 
+      date:
       - Sun, 10 Jul 2011 14:43:50 GMT
-      content-length: 
+      content-length:
       - "261"
-      content-encoding: 
+      content-encoding:
       - gzip
-      vary: 
+      vary:
       - Accept-Encoding
     body: !binary |
       H4sIAAAAAAAAA01QwWrDMAy95yu0nrbDrDSU0YExbE3KClkblvSw03BjjYQ5

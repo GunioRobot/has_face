@@ -3,7 +3,7 @@
   request: !ruby/struct:VCR::Request
     method: :post
     uri: http://api.face.com:80/faces/detect.json
-    body: !!null 
+    body: !!null
     headers:
       accept:
       - ! '*/*; q=0.5, application/xml'
